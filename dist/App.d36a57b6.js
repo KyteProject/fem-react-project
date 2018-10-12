@@ -25559,7 +25559,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 (0, _reactDom.render)(_react.default.createElement(App, null), document.getElementById('root'));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","@reach/router":"../node_modules/@reach/router/es/index.js","./Results":"Results.js","./Details":"Details.js","./SearchParams":"SearchParams.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","@reach/router":"../node_modules/@reach/router/es/index.js","./Results":"Results.js","./Details":"Details.js","./SearchParams":"SearchParams.js"}],"../node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -25586,7 +25586,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53086" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49940" + '/');
 
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
@@ -25728,5 +25728,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","App.js"], null)
+},{}]},{},["../node_modules/parcel/src/builtins/hmr-runtime.js","App.js"], null)
 //# sourceMappingURL=/App.d36a57b6.map

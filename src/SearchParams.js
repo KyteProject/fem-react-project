@@ -41,11 +41,7 @@ class SearchParams extends Component {
       petfinder.breed
         .list({ animal: this.state.animal })
         .then(data => {
-          if (
-            data.petfinder &&
-            data.petfinder.breeds &&
-            Array.isArray(data.petfinder.breeds.breed)
-          ) {
+          if (data.petfinder && data.petfinder.breeds && Array.isArray(data.petfinder.breeds.breed)) {
             this.setState({
               breeds: data.petfinder.breeds.breed,
             });
